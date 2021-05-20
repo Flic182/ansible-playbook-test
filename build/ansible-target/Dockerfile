@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=ubuntu:latest
+ARG BASE_IMAGE=ubuntu:groovy-20210416
 FROM $BASE_IMAGE
 
 RUN apt-get update && apt-get -y upgrade && \
