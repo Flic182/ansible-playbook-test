@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=alpine:latest
+ARG BASE_IMAGE=alpine:3.15.4
 FROM $BASE_IMAGE
 
 RUN apk add curl openssh-client python py-boto py-dateutil py-httplib2 \
